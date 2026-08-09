@@ -191,9 +191,9 @@ def safe_violinplot(ax=None, **kwargs):
 # ## 1. Configuration — dataset paths
 
 # %%
-train_dir = "/content/drive/MyDrive/Train12"
-val_dir   = "/content/drive/MyDrive/Validation12"
-test_dir  = "/content/drive/MyDrive/Test12"
+train_dir = "/content/drive/MyDrive/Train"
+val_dir   = "/content/drive/MyDrive/Validation"
+test_dir  = "/content/drive/MyDrive/Test"
 
 IMG_SIZE = (224, 224)      # ResNet50V2 input size
 OUT_DIR  = "/content/drive/MyDrive/tube_pipeline_outputs"
